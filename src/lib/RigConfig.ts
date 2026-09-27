@@ -122,6 +122,16 @@ export class RigConfig {
       animation_preview_folder: 'horse',
       position_tracking_bone_name: 'hips',
       skeleton_template_image_url: 'rigs/reference/horse.png',
+    } satisfies RigConfigEntry,
+    {
+      skeleton_type: SkeletonType.Kalki,
+      model_file: 'models/model-kalki.glb',
+      rig_file: 'rigs/rig-kalki.glb',
+      rig_display_name: 'Kalki',
+      animation_files: ['../animations/kalki-animations.glb'],
+      animation_preview_folder: 'kalki',
+      position_tracking_bone_name: 'pelvis',
+      skeleton_template_image_url: 'rigs/reference/human.png',
     } satisfies RigConfigEntry
   ]
 
