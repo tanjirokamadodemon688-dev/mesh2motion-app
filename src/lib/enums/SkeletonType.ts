@@ -9,6 +9,7 @@ export enum SkeletonType {
   Snake = 'snake',
   Fish = 'fish',
   Horse = 'horse',
+  Kalki = 'kalki',
   Error = 'error',
   None = 'none'
 }
